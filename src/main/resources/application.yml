@@ -1,1 +1,8 @@
-spring.application.name=logging-practice
+spring:
+  application:
+    name: logging-practice
+  profiles:
+    active: local
+  config:
+    import:
+      - logging.yml
