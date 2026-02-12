@@ -22,6 +22,6 @@ public class ApiController {
 
     @GetMapping("/tc3")
     public void tc3() {
-        log.error("게시글을 업로드하는 도중 문제가 발생했습니다.");
+        log.error("게시글을 업로드하는 도중 문제가 발생했습니다. v2v2v2");
     }
 }
